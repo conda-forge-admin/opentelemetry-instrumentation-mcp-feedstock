@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-mcp" %}
-{% set version = "0.48.1" %}
+{% set version = "0.48.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_mcp-{{ version }}.tar.gz
-  sha256: 5907c2d1cc87e530e3c6a3609912d1ade6b56d5ca157afc470586b04ea99602c
+  sha256: 2b86e26cf21b019550a6daf17f4a0b62ddb314c80f5d0270e9a0f1814de2bdb4
 
 build:
   noarch: python
