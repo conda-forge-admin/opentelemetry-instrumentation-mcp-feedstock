@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: opentelemetry-instrumentation-mcp
   version: "0.63.1"
-  python_min: "3.10"
 
 package:
   name: ${{ name|lower }}
